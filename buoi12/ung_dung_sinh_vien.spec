@@ -2,11 +2,11 @@
 
 
 a = Analysis(
-    ['ung_dung_tu_sach.py'],
+    ['ung_dung_sinh_vien.py'],
     pathex=[],
     binaries=[],
     datas=[],
-    hiddenimports=[],
+    hiddenimports=['matplotlib.backends.backend_tkagg'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='ung_dung_tu_sach',
+    name='ung_dung_sinh_vien',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
